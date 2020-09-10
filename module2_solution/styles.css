@@ -1,1 +1,85 @@
+*{
+    box-sizing :border box;
+    margin:0;
+    padding: 0;
+    background-color:rgb(217, 243, 102);
+}
+.sansserif {
+    font-family:sans-serif, Arial, Helvetica
+  }
+
+h1 {
+    text-align: center ;
+    margin-top:20px;
+    margin-bottom: 50px;
+    padding:10px;
+    
+}
+.row{
+    width:100%;
+    overflow:none;
+}
+.head1,.head2,.head3{
+    border : 2px solid black;
+    overflow: none;
+    float: right;
+    position: relative;
+    text-align: center;
+    padding: 4px;
+    margin-top:3%;
+    margin-right:3%;
+    font-weight:bold;
+}
+
+.ChickenParagraph ,.BeefParagraph,.SushiParagraph{
+    height: auto;
+    overflow:none;
+    border : 4px solid black;
+    padding:2%;
+    padding-top:30px;
+    margin:2.5%;
+    background-color:whitesmoke;
+}
+.head1{
+    background-color:rgb(168, 7, 101);
+}
+.head2{
+    background-color: pink;
+}
+.head3{
+    background-color:rgb(199, 120, 199);
+}
+
+
+/***laptop***/
+@media(min-width:992px){
+    .col-lg-4{
+        float: left;
+        width:33.33%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .col-md-6{
+        float: left;
+        width :50%;
+    }
+    .col-md-12{
+        margin-left:-10px;
+        float:left;
+        width:100%;
+    }
+    .head3{
+        margin-right:3%;
+        margin-top:3%;
+    }
+}
+    @media (min-width:0px) and (max-width:767px){
+        .col-sm-12{
+            float:left;
+            width:100%;
+        }
+        
+    
+    }
 
